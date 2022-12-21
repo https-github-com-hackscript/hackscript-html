@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 .footer{
     margin-top: 50px;
     height: 40vh;
     width: 100vw;
+    padding-bottom: 70px ;
 background-image: url("https://media.istockphoto.com/id/1359861587/vector/blue-modern-abstract-wide-banner-with-geometric-shapes-dark-blue-abstract-background.jpg?s=612x612&w=0&k=20&c=xDMI5_-xyh_IHm2ca07x5xFTR7kRoFZJhxrq10FQra0=");
 }
 .logo img{
-border-radius: 50%;
+height: 100px;
+width: 100px;
 position: relative;
-left: 50%;
-top:-45px;
+left: 45%;
+top:-37px;
+
 }
 .line{
     height: 2px;
@@ -18,15 +23,21 @@ top:-45px;
 }
 .items p2{
          color: white;
-         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: 'Quicksand', sans-serif;
          font-weight: 200;
          margin-left: 200px;
          font-size: 20px;
          margin-top: 200px;
 }
+.items p2:hover{
+    cursor: pointer;
+}
+
+
 .items p1{
+    cursor: pointer;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 200;
     margin-left: 200px;
     font-size: 20px;
@@ -34,13 +45,36 @@ top:-45px;
 }
 .text{
      color: white;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family: 'Quicksand', sans-serif;
      font-size: 15px;
      font-weight: 200;
     margin-left: 20%;
+    opacity: 0.7;
+}
 
+.icons{
+    display: flex;
+    margin-left: 37%;
+  
+}
 
+<<<<<<< HEAD
 
 
 }
 
+=======
+.icons img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin:20px ;
+    cursor: pointer;
+}
+p3{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.7;
+}
+>>>>>>> d2af6263bea75412e834bbd1d2792a6b8eb96f51
