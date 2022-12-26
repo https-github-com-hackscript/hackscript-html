@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-thumb.jpg");
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    height: 70vh;
+    width: 70vw;
+    background-color: aliceblue;
+    margin-top: 7%;
+    opacity: 0.7;
+    border-radius: 30px;
+    background-image: url("https://img.freepik.com/free-photo/solid-navy-blue-concrete-textured-wall_53876-124584.jpg?w=360");
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.logo h3{
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo p2{
+    margin-top: 25px;
+    margin-left: 30%;
+}
+.logo p1{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.logo button{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 30px;
+    background-color: #12A2CF;
+    color: white;
+    border: 1px solid navajowhite;
+}
+.left h1{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    margin-left: 10%;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.left p{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    margin-left: 10%;
+}
+.right img{
+    height: 45vh;
+    width:40vw;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(181, 155, 177, 0.35) 0px 5px 15px;
+}
+.section{
+    display: flex;
+}
